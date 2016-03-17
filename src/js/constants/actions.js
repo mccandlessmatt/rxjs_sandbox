@@ -1,1 +1,1 @@
-export const SEARCH_INSTAGRAM = 'SEARCH_INSTAGRAM';
+export const SEARCH_IMGUR = 'SEARCH_IMGUR';

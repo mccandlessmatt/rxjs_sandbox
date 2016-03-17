@@ -6,7 +6,7 @@ const List = (props) => (
   <div>
     <DevTools />
     <ul>
-      <li><Link to={'/instagram'}>Search Instagram</Link></li>
+      <li><Link to={'/imgur'}>Search Imgur</Link></li>
     </ul>
     {props.children}
   </div>

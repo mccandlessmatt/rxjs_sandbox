@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux'
-import {instagramReducer as instagram} from './searchInstagram'
+import {imgurReducer as imgur} from './searchImgur'
 
 const reducer = combineReducers({
-  instagram
+  imgur
 })
 
 export default reducer;

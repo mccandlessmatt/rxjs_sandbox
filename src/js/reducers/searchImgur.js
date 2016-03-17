@@ -1,9 +1,9 @@
-import { SEARCH_INSTAGRAM } from '../constants/actions'
+import { SEARCH_IMGUR } from '../constants/actions'
 
-export function instagramReducer(state = {searchText: ''}, action){
+export function imgurReducer(state = {searchText: ''}, action){
 
   switch(action.type){
-    case SEARCH_INSTAGRAM:
+    case SEARCH_IMGUR:
       let newState = {
         ...state,
         searchText: action.text
