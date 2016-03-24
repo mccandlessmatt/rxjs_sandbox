@@ -1,1 +1,2 @@
 export const SEARCH_IMGUR = 'SEARCH_IMGUR';
+export const IMGUR_RESULTS = 'IMGUR_RESULTS';
